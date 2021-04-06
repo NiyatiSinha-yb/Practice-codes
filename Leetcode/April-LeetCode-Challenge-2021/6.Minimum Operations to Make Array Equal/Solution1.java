@@ -7,7 +7,6 @@ class Solution1 {
             count=count+2*i+1;
         }
         */
-        
         if(n%2==0)
             return (n/2)*(n/2); //sum of first m odd numbers here m=n/2
         else
@@ -15,7 +14,6 @@ class Solution1 {
         
     }
 }
-
 /*
 Your runtime beats 100.00 % of java submissions
 Your memory usage beats 97.13 % of java submissions
