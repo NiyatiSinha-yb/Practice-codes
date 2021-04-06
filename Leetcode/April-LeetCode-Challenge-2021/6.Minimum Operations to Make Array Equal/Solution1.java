@@ -9,9 +9,9 @@ class Solution1 {
         */
         
         if(n%2==0)
-            return (n/2)*(n/2);
+            return (n/2)*(n/2); //sum of first m odd numbers here m=n/2
         else
-            return (n/2)*(n/2+1);
+            return (n/2)*(n/2+1); //sum of first m even numbers here m=n/2
         
     }
 }
