@@ -26,7 +26,7 @@ class MonkRotation_Array1{
         int n=sc.nextInt();
         for(int i=0; i<n; i++){
             makeArray(sc.nextInt(), sc.nextInt());
-        } //int size= sc.nextInt();
+        }   //int size= sc.nextInt();
             //int k=sc.nextInt();
             //makeArray(size,k);
     }
