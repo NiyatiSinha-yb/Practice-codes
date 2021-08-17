@@ -1,0 +1,14 @@
+
+//User function Template for Java
+
+class Solution{
+    public static int kthSmallest(int[] arr, int l, int r, int k) 
+    { 
+        //Your code here
+        //l=start of array
+        //r=end of array
+        //k= kth smallest element to find
+        Arrays.sort(arr);
+        return arr[k-1];
+    } 
+}
