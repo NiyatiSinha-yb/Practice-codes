@@ -1,5 +1,9 @@
 
 //User function Template for Java
+//https://practice.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1
+//Considering to rotate by k elements
+//Time Complexity: O(n)
+//Space Complexity: O(n) 
 
 class RotateByN {
     
