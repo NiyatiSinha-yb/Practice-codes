@@ -4,17 +4,17 @@
 //Space Complecity: O(1)
 class KadaneAlgoDynamic{
 
-    // arr: input array
+     // arr: input array
     // n: size of array
     //Function to find the sum of contiguous subarray with maximum sum.
     int maxSubarraySum(int arr[], int n){
         
         // Your code here
-        int localMax=0;
-        int MaxTillNow=Integer.MIN_VALUE;
-        for(int i=0; i<n; i++)
+        int localMax=arr[0];
+        int MaxTillNow=arr[0];
+        for(int i=1; i<n; i++)
         {
-            localMax=Math.max(localMax,localMax+arr[i]);
+            localMax=Math.max(arr[i],localMax+arr[i]);
             MaxTillNow=Math.max(MaxTillNow,localMax);
         }
         return MaxTillNow;
