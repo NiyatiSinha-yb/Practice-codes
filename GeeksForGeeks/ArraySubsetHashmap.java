@@ -1,4 +1,4 @@
-//Time Complexity :O(a1.length)
+//Time Complexity :O(Math.max(a1.length, a2.length^2))
 //Space Complexity: O(a1.length)
 //https://practice.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
 //User function Template for Java
