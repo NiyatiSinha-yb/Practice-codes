@@ -1,5 +1,6 @@
 //time Complexity: O(n)
 //Space Complexity: O(n)
+//https://leetcode.com/problems/build-array-from-permutation/submissions/
 
 class ArrayFromPermutation {
     public int[] buildArray(int[] nums) {
