@@ -29,6 +29,5 @@ class SortColor {
             arr[i++]=2;
             blue--;
         }
-            
     }
 }
