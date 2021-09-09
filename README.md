@@ -1,1 +1,1 @@
-# competitive-coding
+# practiced-code-solutions
