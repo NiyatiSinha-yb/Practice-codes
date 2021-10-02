@@ -27,7 +27,7 @@ public class Solution extends VersionControl {
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version); */
 
-//Time Complexity: O(n)
+//Time Complexity: O(log n)
 //Space complexity: O(1)
 //https://leetcode.com/problems/first-bad-version/
 
