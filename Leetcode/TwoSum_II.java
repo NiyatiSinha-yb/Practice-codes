@@ -1,6 +1,7 @@
 //time Compleity : O( n )
 // Space complexity : O ( 1)
 //https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/
+
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int front=0; 
