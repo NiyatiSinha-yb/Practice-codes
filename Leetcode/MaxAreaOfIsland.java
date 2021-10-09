@@ -1,7 +1,7 @@
 //https://leetcode.com/problems/max-area-of-island/submissions/
 //695. Max Area of Island
 
-//Time Complexity: O(N)
+//Time Complexity: O(N*N*N)
 //Space Complexity: O(N)
 
 class Solution {
