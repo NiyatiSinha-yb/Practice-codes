@@ -1,0 +1,39 @@
+//Time Complexity: O(n+m)
+//Space Complexity:O(1)
+//https://leetcode.com/problems/merge-in-between-linked-lists/submissions/
+//1669. Merge In Between Linked Lists
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
+        ListNode ptr=list1;
+        for(int i=0; i<a-1 ;i++)
+        {
+            ptr=ptr.next;
+        }
+        
+        ListNode ptr2=ptr;
+        for(int i=a; i<=b; i++)
+        {
+            ptr2=ptr2.next;  
+        }
+       
+        ptr.next=list2;
+        while(list2.next!=null)
+        {
+            list2=list2.next;
+        }
+        
+        list2.next=ptr2.next;
+        return list1;
+    }
+}
