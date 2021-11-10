@@ -1,5 +1,7 @@
 //https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/submissions/
 //1662. Check If Two String Arrays are Equivalent
+//time Complexity: O(max(word1.length,word2.length))
+//Space Complexity: O(max(word1.length,word2.length))
 
 
 class Solution {
