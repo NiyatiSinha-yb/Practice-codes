@@ -1,6 +1,6 @@
 //https://leetcode.com/problems/find-the-duplicate-number/submissions/
 //287. Find the Duplicate Number
-//Time Complexity: O(nums.length * log (nums.length))
+//Time Complexity:O(nums.length)       (not O(nums.length * log (nums.length)) as HashSet LookUps & insertions have O(1) time complexity)
 //Space Complexity: O(nums.length-1)  -> as for sure One element is duplicate
 
 
