@@ -1,5 +1,5 @@
-//Time Complexity:
-//Space Complexity:
+//Time Complexity:O(words.length* MaxLengthOfStringPresentInWords)
+//Space Complexity: O(allowed.length())
 //https://leetcode.com/problems/count-the-number-of-consistent-strings/submissions/
 //1684. Count the Number of Consistent Strings
 
