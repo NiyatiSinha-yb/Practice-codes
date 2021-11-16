@@ -1,5 +1,6 @@
-//Time Complexity: O()
-//Space Complexity: O()
+//One Pass Algorithm
+//Time Complexity: O(n)
+//Space Complexity: O(1)
 //https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1#
 //Find Missing And Repeating 
 
