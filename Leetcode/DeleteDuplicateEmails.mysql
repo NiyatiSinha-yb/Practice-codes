@@ -1,0 +1,5 @@
+# 196. Delete Duplicate Emails
+# https://leetcode.com/problems/delete-duplicate-emails/description/
+# Please write a DELETE statement and DO NOT write a SELECT statement.
+# Write your MySQL query statement below
+DELETE A from Person A, Person B where A.id>B.id and A.email=B.email;
