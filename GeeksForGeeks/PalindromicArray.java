@@ -1,7 +1,7 @@
 //Palindromic Array
 //https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1?page=1&difficulty=School&sortBy=submissions
-//Time Complexity: O(n)
-//Space Complexity: O(n)
+//Time Complexity: O(n log (max element of array))
+//Space Complexity: O(1)
 
 //{ Driver Code Starts
 import java.util.*;
