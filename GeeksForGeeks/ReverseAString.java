@@ -1,7 +1,7 @@
 //https://www.geeksforgeeks.org/problems/java-reverse-a-string0416/1?page=1&difficulty=School&status=unsolved&sortBy=submissions
 //Reverse a String
-//Time Complexity: O()
-//Space Complexity: O()
+//Time Complexity: O(length of String)
+//Space Complexity: O(1)
 
 //{ Driver Code Starts
 // Initial template for Java
