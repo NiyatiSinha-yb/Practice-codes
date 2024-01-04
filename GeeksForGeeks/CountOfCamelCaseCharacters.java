@@ -1,6 +1,6 @@
 //Count of camel case characters
 //https://www.geeksforgeeks.org/problems/find-the-camel3348/1?page=1&difficulty=School&status=unsolved&sortBy=accuracy
-//Time Complexity: O(1)
+//Time Complexity: O(S.length())
 //Space complexity: O(1)
 
 //{ Driver Code Starts
