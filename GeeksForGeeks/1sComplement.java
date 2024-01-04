@@ -1,7 +1,7 @@
 //1s Complement
 //https://www.geeksforgeeks.org/problems/1s-complement2819/1?page=1&difficulty=School&status=unsolved&sortBy=accuracy
 
-//Time Complexity: O(1)
+//Time Complexity: O(N)
 //Space complexity: O(1)
 
 //{ Driver Code Starts
