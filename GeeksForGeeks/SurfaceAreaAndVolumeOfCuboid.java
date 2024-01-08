@@ -6,6 +6,9 @@
 //{ Driver Code Starts
 //Initial Template for Java
 
+]//{ Driver Code Starts
+//Initial Template for Java
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -40,9 +43,10 @@ class Solution
     public long[] find(int l, int b, int h)
     {
         // code here
+        long one=1;
         long res[]= new long[2];
-        res[0]=2*(l*b+b*h+h*l);
-        res[1]=l*b*h;
+        res[0]=one*2*(one*l*b+one*b*h+one*h*l);
+        res[1]=one*l*b*h;
         return res;
     }
     
