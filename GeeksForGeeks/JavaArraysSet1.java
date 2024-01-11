@@ -47,7 +47,7 @@ class Compute
 {
     String average(int A[], int N)
     {
-        long sum=0;
+        double sum=0;
         for(int i=0; i<N; i++)
         {
             sum+=A[i];
