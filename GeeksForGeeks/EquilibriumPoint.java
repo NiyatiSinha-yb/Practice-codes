@@ -1,3 +1,9 @@
+//Time Complexity: O(n)
+//Space complexity: O(1)
+//https://www.geeksforgeeks.org/problems/equilibrium-point-1587115620/1?page=1&difficulty=School,Basic,Easy&status=unsolved,attempted&sortBy=submissions
+//Equilibrium Point
+
+
 //{ Driver Code Starts
 import java.io.*;
 import java.util.*;
@@ -44,18 +50,21 @@ class Solution {
         long sum=0;
         long leftSum=0;
         long rightSum=0;
+        if(n==1)
+            return 1;
         for(int i=0; i<n; i++)
         {
             sum+=arr[i];
         }
         for(int i=0; i<n-1; i++)
         {
+            leftSum+=arr[i];
+            rightSum=sum-leftSum-arr[i+1];
+            //System.out.println(i+"-> "+leftSum+" compare to "+rightSum);
             if(leftSum==rightSum)
             {
-                return i+1;
+                return (i+1)+1;
             }
-            leftSum+=arr[i];
-            rightSum=rightSum-leftSum-arr[i+1];
         }
         return -1;
     }
