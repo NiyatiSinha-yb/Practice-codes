@@ -6,8 +6,8 @@ class HelloWorld {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter your marks");
         int marks = sc.nextInt(); 
-        int decryptedMarks=marks+8;
-        System.out.println("Your decrypted marks = "+decryptedMarks);
+        int encryptedMarks=marks+8;
+        System.out.println("Your decrypted marks = "+encryptedMarks);
         
     }
 }
